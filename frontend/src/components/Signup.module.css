@@ -1,0 +1,163 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0e1dd;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input:focus, input:hover {
+    outline: none;
+    background-color: #1b263b; 
+    color: #e0e1dd; 
+}
+
+pre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #00aaff; 
+}
+
+.box1, .box2 {
+    margin: 10px;
+    width: 90%; 
+    min-width: 360px; 
+    display: inline-block;
+    border: 1px solid #415a77; 
+    background-color: #1b263b; 
+    color: #e0e1dd; 
+}
+
+.box1 {
+    padding: 40px;
+    margin-top: 25px;
+    height: auto;
+}
+
+.namel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.namelogo{
+    filter: invert(100%);
+}
+
+#mobileemail, #password, #fullname, #username {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: #415a77; 
+    background-color: #0d1b2a; 
+    border-width: 0.5px;
+    box-shadow: none;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #e0e1dd; 
+}
+
+.line {
+    text-align: center;
+}
+
+.logindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.signup:hover, .loginusingfacebook:hover {
+    background-color: #007acc; 
+}
+
+.signup, .loginusingfacebook {
+    width: 100%; 
+    max-width: 280px; 
+    height: 30px;
+    color: #0d1b2a; 
+    font-weight: bold;
+    background-color: #00aaff; 
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.otheroptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.loginusingfacebook {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.box2 {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Adjust width for responsiveness */
+    max-width: 450px; /* Increased maximum width for larger screens */
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginfbdiv {
+    margin-top: 20px;
+    display: flex;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .box1, .box2 {
+        width: 90%; /* Adjust width for tablets and smaller screens */
+    }
+    .signup, .loginusingfacebook {
+        width: 100%;
+    }
+    #mobileemail, #password, #fullname, #username {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .box1, .box2 {
+        width: 100%; /* Full width for mobile screens */
+    }
+    .signup, .loginusingfacebook {
+        width: 100%;
+    }
+    #mobileemail, #password, #fullname, #username {
+        width: 100%;
+    }
+    .body {
+        margin-top: 10px; /* Reduce margin for mobile screens */
+    }
+}

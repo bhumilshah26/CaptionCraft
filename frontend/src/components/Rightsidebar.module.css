@@ -1,0 +1,80 @@
+.rightsidebar{
+    color: white;
+    height: 100vh;
+    width: 450px;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    top:0;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: black; 
+}
+
+.userid{
+    display: flex;
+    margin-top: 25px;
+}
+
+.userid div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.userid div{
+    margin-left: 10px;
+}
+
+.rightsidebar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+.currentuserid{
+    display: flex;
+}
+
+.currentuserid a{
+    margin-left: 175px;
+    font-size: 13px;
+}
+
+.currentuserid div{
+    margin-left: 10px;
+}
+
+.suggestions{
+    display: flex;
+    color: grey;
+    margin-top: 20px;
+}
+
+.suggestions a{
+    margin-left: 165px;
+    font-size: 13px;
+}
+
+.suggestions a:hover{
+    color: grey;
+}
+
+.userid a{
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.userid div{
+    margin-left: 20px;
+}
+
+.userid a:hover{
+    color: white;
+}
+
+.userid div pre{
+    color: grey;
+    font-size: 13px;
+}

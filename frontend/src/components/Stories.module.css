@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px; 
+}
+
+.stories{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    height: 140px;
+    border: none;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;     
+}
+
+.userprofile {
+    margin-left: 0; 
+    display:flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.userprofile:first-child{
+    margin-left:350px;
+}
+
+.storiesitems{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    padding: 3px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background:linear-gradient(45deg, #0d47a1, #1976d2, #42a5f5, #81d4fa, #00e5ff);
+}

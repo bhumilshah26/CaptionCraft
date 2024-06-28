@@ -1,0 +1,68 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    border-right: 1px solid #242424;
+    padding: 10px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    padding: 0;
+    margin-right: 10px;
+  }
+  
+  .sidebar ul li {
+    padding: 13px;
+    margin-bottom: 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease
+  }
+  
+  .sidebar ul li:first-child {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .sidebar ul li:nth-child(6) {
+    margin-top: 200px;
+    cursor: pointer;
+  }
+  
+  .namelogo{
+    margin-top: 25px;
+    margin-left: 16px;
+    width: 100px;
+    filter: invert(100%);
+    /* important property */
+  }
+
+  .sidebar ul li:hover {
+    background-color: #1a1a1a; 
+  }
+  
+  .menu {
+    padding: 0;
+  }
+
+  .menu li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+  }
+  
+  .menu li span.text {
+    margin-left: 10px;  
+    font-size: 16px; 
+  }
